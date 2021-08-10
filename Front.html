@@ -20,12 +20,12 @@
                 font-size: 17px;
             }
             input[type=number], select {
-                width: 20%;
+                width: 170px;
                 padding: 6px 5px;
                 margin: 8px 0;
                 display: inline-block;
                 border: 1px solid #ccc;
-                border-radius: 4px;
+                border-radius: 5px;
                 box-sizing: border-box;
             }
             #forget{
@@ -33,19 +33,20 @@
                 border: none;
                 cursor: pointer;
             }
-            .input1 {font-size: 12px;}
-
+            .logo {
+                max-width: 100%;
+            }
         </style>        
         <title>โรงเรียนสาธิตพัฒนาฝ่ายมัธยม Satitpattanasecondaryschool</title>
     </head>
-    <div id="logo"><center>
-    <img src="D:\code\photo\satitpatttanlogo.png" alt="satitpatttanlogo">
+    <div class="logo"><center>
+    <img src="D:\code\photo\satitpatttanlogo.png" >
     </center>   
     </div>
     <center><div class="input">
         <label for="sid">Enter Student Number</label></div>
         <form action="Dashboard.html">
-        <input type="number" id="sid" name="stuid" placeholder="Student id"><br>
+        <input type="number" id="sid" name="studid" placeholder="Student ID"><br>
         <button class="button">Sign in</button>
     </form>
     </center>
